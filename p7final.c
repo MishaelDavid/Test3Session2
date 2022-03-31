@@ -2,7 +2,7 @@
 struct _fraction
 {
 int num,den;
-};
+}
 typedef struct _fraction Fraction;
 int gcd(int a, int b)
 {
@@ -15,7 +15,7 @@ int gcd(int a, int b)
      }
     return a;
   }
-Fraction input_fraction()
+void input_n_fraction(int n)
 {
   Fraction f;
   printf("input a fraction\n");
